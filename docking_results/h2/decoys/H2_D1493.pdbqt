@@ -1,0 +1,72 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_2  and  C_3 
+REMARK    2  A    between atoms: C_3  and  C_5 
+REMARK    3  A    between atoms: C_8  and  N_9 
+REMARK    4  A    between atoms: N_12  and  C_13 
+REMARK    5  A    between atoms: C_13  and  C_14 
+REMARK    6  A    between atoms: C_22  and  N_23 
+REMARK    7  A    between atoms: N_23  and  C_24 
+REMARK    8  A    between atoms: C_24  and  N_26 
+REMARK       I    between atoms: N_26  and  C_27 
+REMARK    9  A    between atoms: C_27  and  C_29 
+ROOT
+ATOM      1  C   UNL d   1       4.665   0.146  -1.385  0.00  0.00     0.041 A 
+ATOM      2  C   UNL d   1       5.449   0.823  -2.287  0.00  0.00     0.020 A 
+ATOM      3  C   UNL d   1       6.848   0.605  -2.284  0.00  0.00     0.033 A 
+ATOM      4  C   UNL d   1       7.528  -0.276  -1.374  0.00  0.00     0.057 A 
+ATOM      5  C   UNL d   1       6.700  -0.995  -0.464  0.00  0.00     0.062 A 
+ATOM      6  C   UNL d   1       5.322  -0.699  -0.510  0.00  0.00     0.049 A 
+ENDROOT
+BRANCH   5   7
+ATOM      7  N   UNL d   1       7.185  -1.989   0.495  0.00  0.00    -0.331 N 
+ATOM      8  H   UNL d   1       8.159  -2.178   0.400  0.00  0.00     0.168 HD
+BRANCH   7   9
+ATOM      9  C   UNL d   1       6.436  -2.805   1.398  0.00  0.00     0.179 C 
+ATOM     10  S   UNL d   1       4.758  -2.807   1.587  0.00  0.00    -0.040 SA
+BRANCH   9  11
+ATOM     11  N   UNL d   1       7.209  -3.677   2.202  0.00  0.00    -0.299 N 
+ATOM     12  C   UNL d   1       6.611  -4.554   3.133  0.00  0.00     0.257 C 
+ATOM     13  O   UNL d   1       5.419  -4.606   3.432  0.00  0.00    -0.267 OA
+ATOM     14  H   UNL d   1       8.204  -3.758   2.075  0.00  0.00     0.171 HD
+BRANCH  12  15
+ATOM     15  C   UNL d   1       7.367  -5.502   3.945  0.00  0.00     0.032 A 
+ATOM     16  C   UNL d   1       6.677  -6.683   4.293  0.00  0.00     0.017 A 
+ATOM     17  C   UNL d   1       7.087  -7.449   5.372  0.00  0.00     0.002 A 
+ATOM     18  C   UNL d   1       8.240  -7.084   6.053  0.00  0.00     0.007 A 
+ATOM     19  C   UNL d   1       8.943  -5.918   5.703  0.00  0.00    -0.061 A 
+ATOM     20  C   UNL d   1      10.121  -5.479   6.514  0.00  0.00     0.048 C 
+ATOM     21  C   UNL d   1       8.498  -5.112   4.646  0.00  0.00     0.023 A 
+ENDBRANCH  12  15
+ENDBRANCH   9  11
+ENDBRANCH   7   9
+ENDBRANCH   5   7
+BRANCH   4  22
+ATOM     22  N   UNL d   1       8.918  -0.309  -1.442  0.00  0.00    -0.376 N 
+ATOM     23  C   UNL d   1       9.762  -1.493  -1.579  0.00  0.00     0.150 C 
+ATOM     24  C   UNL d   1      10.592  -1.723  -0.287  0.00  0.00     0.255 C 
+ATOM     25  N   UNL d   1      11.364  -0.469   0.154  0.00  0.00    -0.064 N 
+ATOM     26  C   UNL d   1      10.467   0.796   0.074  0.00  0.00     0.255 C 
+ATOM     27  H   UNL d   1      12.146  -0.330  -0.497  0.00  0.00     0.280 HD
+ATOM     28  C   UNL d   1       9.693   0.921  -1.248  0.00  0.00     0.150 C 
+BRANCH  25  29
+ATOM     29  C   UNL d   1      12.010  -0.681   1.536  0.00  0.00     0.273 C 
+BRANCH  29  30
+ATOM     30  C   UNL d   1      12.921   0.424   2.013  0.00  0.00    -0.033 A 
+ATOM     31  C   UNL d   1      14.251   0.199   2.398  0.00  0.00     0.009 A 
+ATOM     32  C   UNL d   1      15.004   1.242   2.961  0.00  0.00     0.001 A 
+ATOM     33  C   UNL d   1      14.492   2.538   3.022  0.00  0.00     0.000 A 
+ATOM     34  C   UNL d   1      13.192   2.779   2.620  0.00  0.00     0.001 A 
+ATOM     35  C   UNL d   1      12.406   1.715   2.203  0.00  0.00     0.009 A 
+ENDBRANCH  29  30
+ENDBRANCH  25  29
+ENDBRANCH   4  22
+BRANCH   1  36
+ATOM     36  C   UNL d   1       3.167   0.115  -1.410  0.00  0.00     0.293 C 
+ATOM     37  O   UNL d   1       2.539   0.086  -2.467  0.00  0.00    -0.259 OA
+BRANCH  36  38
+ATOM     38  O   UNL d   1       2.620   0.078  -0.165  0.00  0.00    -0.323 OA
+ATOM     39  C   UNL d   1       1.180   0.022  -0.126  0.00  0.00     0.213 C 
+ENDBRANCH  36  38
+ENDBRANCH   1  36
+TORSDOF 9
